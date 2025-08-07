@@ -1,0 +1,64 @@
+.logo{
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    gap: 10px;
+}
+
+.shap{
+    display: flex;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    color: blue;
+    background-color: black;
+    align-self:center ;
+}
+span{
+    color: red;
+}
+#register{
+    color: brown;
+}
+.courseclass{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+
+}
+h2{
+    margin-left: 630px;
+    align: center;
+}
+.courselivesec{
+   display: inline;
+  
+.listtable{
+    color: blueviolet;
+
+}
+table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+ 
+ 
+}
+th{
+    background-color: greenyellow;
+    font-size: large;
+}
+figure{
+    image width: 20px;
+    height: 20px;
+}
+
+    

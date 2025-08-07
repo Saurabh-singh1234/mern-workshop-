@@ -1,0 +1,64 @@
+.nav{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    margin-top: 400px;
+    margin-left: 400px;
+    transform: rotate(30deg);
+    transform: scale(4deg);
+    animation-name: rotation ;
+    animation-duration: 3s;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 400px;
+    animation-iteration-count: infinite;
+    border-bottom: 2px solid red;
+    border-radius: 10000px;
+}
+.normal{
+    margin-top: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+/*@keyframes colorchage{
+        0%{
+                background-color: red;
+            }
+            20%{
+                background-color: blanchedalmond;
+            }
+            40%{
+                background-color: blue;
+            }
+            80%{
+                background-color: aqua;
+            }
+}
+            
+            
+@keyframes  farword{
+        0%{
+       transform: translate(0px,0px);
+       background-color: blue;
+        }
+       
+        100%{
+            transform: translate(200px,30px);
+            background-color: blueviolet;
+        }
+}   
+*/
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+        border-color: brown;
+    }
+    100%{
+        transform:rotate(300deg);
+        border-color: blue;
+    }
+    
+}
