@@ -9,6 +9,7 @@ h1 {
   color: #fff;
   height: 5rem;
   line-height: 5rem;
+  text-align: center;
 }
 
 .choice {
@@ -54,11 +55,13 @@ img {
   font-size: 4rem;
 }
 
-.msg-container {
+.mgs-container {
+    display: flex;
+    justify-content: center;
   margin-top: 5rem;
 }
 
-#msg {
+#mgs {
   background-color: #081b31;
   color: #fff;
   font-size: 2rem;

@@ -1,5 +1,5 @@
-let userscore = 0;
-let compscore = 0;
+let userScore = 0;
+let compScore = 0;
 
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
@@ -61,6 +61,5 @@ choices.forEach((choice) => {
     playGame(userChoice);
   });
 });
-
 
 
