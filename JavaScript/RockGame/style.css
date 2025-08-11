@@ -55,13 +55,13 @@ img {
   font-size: 4rem;
 }
 
-.mgs-container {
+.msg-container {
     display: flex;
     justify-content: center;
   margin-top: 5rem;
 }
 
-#mgs {
+#msg {
   background-color: #081b31;
   color: #fff;
   font-size: 2rem;
