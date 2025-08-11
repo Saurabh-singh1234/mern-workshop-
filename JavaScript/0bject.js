@@ -1,1 +1,3 @@
-const employee
+const employee ={
+    
+}
