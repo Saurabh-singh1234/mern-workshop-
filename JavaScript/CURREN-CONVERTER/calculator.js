@@ -1,0 +1,1 @@
+const Base_URL = "https://v6.exchangerate-api.com/v6/082f73d35e94ac3667538e22/pair/USD/INR";
