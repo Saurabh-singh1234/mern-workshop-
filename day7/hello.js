@@ -21,7 +21,7 @@
 //             "React":50
 //         },
 //         "location":"up"
-//}
+// }
 // console.log(obj.student)
 // console.log(obj.marks)
 
@@ -30,6 +30,14 @@
 // console.log(student);
 // console.log(maths);
 // console.log(React);
+
+
+
+// const fun =({...ages})=>{  //..rest operator
+//     console.log(ages)
+  
+// }
+// fun({"age":"34","age1":23})
 
 
 
