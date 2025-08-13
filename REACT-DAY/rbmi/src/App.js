@@ -7,7 +7,12 @@ function App() {
   
     
   return (
-        
+        <div class="my">
+          <form>
+            <button>SEARCH</button>
+            <button>CONTECT US</button>
+          </form>
+      </div>        
   
   );
 }

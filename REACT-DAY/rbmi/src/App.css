@@ -1,8 +1,7 @@
-.header{
-  height: 40px;
-  background-color: green;
-  display: flex;
-  justify-content: right;
-  
+.my{
+    display: flex;
+    justify-content: right;
+    background-color: green;
+    gap: 5rem;
 }
-
+    
