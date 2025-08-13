@@ -1,7 +1,4 @@
 .my{
-    display: flex;
-    justify-content: right;
-    background-color: green;
-    gap: 5rem;
+    color: red;
 }
     
