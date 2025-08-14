@@ -1,15 +1,19 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
+import Table from  './table.jsx'
+// import Pagination from './pagination.jsx'
 
  
 
 function App() {
+  let  [users,setUser]=useState([])
   let [data,setData]=useState({"email":"","name":""}) 
 
   const inputchange=(e)=>{
       const {name,value}=e.target
       setData({...data,[name]:value})
+    
   }
  
 //   const [email,setEmail]=useState("")
@@ -23,7 +27,14 @@ function App() {
 
  const handleSumit=(e)=>{
     e.preventDefault()
-    alert([data.email,data.name])
+    let user ={
+      id:Date.now(),
+      name:data.name,
+      email:data.email,
+    }
+    // alert([data.email,data.name])
+    setUser([...users,user])
+    console.log(users)
  }
   
     // let [data,setData]=useState("normal")
@@ -60,6 +71,7 @@ function App() {
           />
           <input type='submit'/>
         </form>
+        <Table users={users}/>
        
       </>
       
